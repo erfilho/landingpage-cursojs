@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/variables.css">
+    <link rel="stylesheet" href="./assets/css/elements.css">
+    <link rel="stylesheet" href="./assets/css/classes.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <input type="checkbox" role="button" aria-label="close menu" id="close-menu" class="close-menu">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <aside class="menu">
+        <div class="main-content menu-content">
+            <h1> 
+                <a href="#home"> Logo </a> 
+            </h1>
+            <nav>
+                <ul onclick="document.getElementById('close-menu').checked = false">
+                    <li><a href="#top3"> intro </a></li>
+                    <li><a href="#grid-one"> grid-one </a></li>
+                    <li><a href="#gallery"> gallery </a></li>
+                    <li><a href="#works"> works </a></li>
+                    <li><a href="#pricing"> pricing </a></li>
+                    <li><a href="#contact"> contact </a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+
+    <div class="menu-spacing">
+    </div>
+
+    <section id="home" class="main-bg section intro">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2> Volte a boas ideias – mais rápido </h2>
+                <p>
+                    A Mozilla é a organização sem fins lucrativos por trás do Firefox, o navegador alternativo original. Nós criamos produtos e políticas para manter a internet a serviço das pessoas, não dos lucros.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/dino-people.svg" alt="dinosaur giving a block to people">
+            </div>
+        </div>
+    </section>
+
+    <section id="top3" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2> Top 3 jobs </h2>
+            <p>
+                Build amazing things with a balance of autonomy and collaborative teamwork. Set your own work schedule and make use of a flexible PTO plan when you need to recharge
+            </p>
+            <p>
+                GitHub is a remote-first company with offices located throughout the US, Europe, and Asia. Whether you live near an office or not, GitHub believes you can do your best work wherever you are. If you work remotely, you will receive a stipend to outfit your home office and receive reoccurring reimbursement refreshes.
+            </p>
+            <p>
+                GitHub provides a monthly wellness stipend designed to cover anything from gym memberships, massage, meditation apps, or any other wellness related expenses.
+            </p>
+        </div>
+    </section>
+
+    <section id="grid-one" class="main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-one-heading"> My grid </h2>
+            <p class="grid-description"> Uma breve descrição </p>
+            <div class="grid">
+                <article>
+                    <h3> Teste um </h3>
+                    <p> 
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, dicta sit repellendus odio nisi tenetur amet molestias ad, iste at, corrupti earum dolorum temporibus sed rem voluptas eos nulla excepturi?
+                    </p>
+                </article>
+                <article>
+                    <h3> Teste dois </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At quaerat, facere voluptas quis cupiditate aspernatur qui eligendi tenetur numquam. Sit eum molestias itaque facilis. Tempore obcaecati accusantium molestiae porro suscipit.
+                    </p>
+                </article>
+                <article>
+                    <h3> Teste três </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At quaerat, facere voluptas quis cupiditate aspernatur qui eligendi tenetur numquam. Sit eum molestias itaque facilis. Tempore obcaecati accusantium molestiae porro suscipit.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-one-heading"> Gallery </h2>
+            <p class="grid-description"> Fotos </p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?a=1" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?b=2" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?c=3" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?d=4" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?e=5" alt="random image from unsplash">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?f=6" alt="random image from unsplash">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="works" class="main-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-one-heading"> Recent jobs </h2>
+            <p class="grid-description"> Uma breve descrição </p>
+            <div class="grid">
+                <article>
+                    <h3> Teste um </h3>
+                    <p> 
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo, dicta sit repellendus odio nisi tenetur amet molestias ad, iste at, corrupti earum dolorum temporibus sed rem voluptas eos nulla excepturi?
+                    </p>
+                </article>
+                <article>
+                    <h3> Teste dois </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At quaerat, facere voluptas quis cupiditate aspernatur qui eligendi tenetur numquam. Sit eum molestias itaque facilis. Tempore obcaecati accusantium molestiae porro suscipit.
+                    </p>
+                </article>
+                <article>
+                    <h3> Teste três </h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At quaerat, facere voluptas quis cupiditate aspernatur qui eligendi tenetur numquam. Sit eum molestias itaque facilis. Tempore obcaecati accusantium molestiae porro suscipit.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    
+    <section id="pricing" class="white-bg section">
+        <div class="main-content top3-content">
+            <h2> Pricing </h2>
+            <p>
+                Build amazing things with a balance of autonomy and collaborative teamwork. Set your own work schedule and make use of a flexible PTO plan when you need to recharge
+            </p>
+            <p>
+                GitHub provides a monthly wellness stipend designed to cover anything from gym memberships, massage, meditation apps, or any other wellness related expenses.
+            </p>
+
+            <div class="responsive-table">
+                <table>
+                    <caption> Pricing table </caption>
+                    <thead>
+                        <tr>
+                            <th> Title 1 </th>
+                            <th> Title 2 </th>
+                            <th> Title 3 </th>   
+                            <th> Title 4 </th>   
+                            <th> Title 5 </th>    
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> Content 1 </td>
+                            <td> Content 2 </td>
+                            <td> Content 3 </td>
+                            <td> Content 2 </td>
+                            <td> Content 3 </td>
+                        </tr>
+                        <tr>
+                            <td> Content 1 </td>
+                            <td> Content 2 </td>
+                            <td> Content 3 </td>
+                            <td> Content 2 </td>
+                            <td> Content 3 </td>
+                        </tr>
+                        <tr>
+                            <td> Content 1 </td>
+                            <td> Content 2 </td>
+                            <td> Content 3 </td>
+                            <td> Content 2 </td>
+                            <td> Content 3 </td>
+                        </tr>
+                        <tr>
+                            <td> Content 1 </td>
+                            <td> Content 2 </td>
+                            <td> Content 3 </td>
+                            <td> Content 2 </td>
+                            <td> Content 3 </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5"> Testing </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2> Volte a boas ideias – mais rápido </h2>
+                <p>
+                    A Mozilla é a organização sem fins lucrativos por trás do Firefox, o navegador alternativo original. Nós criamos produtos e políticas para manter a internet a serviço das pessoas, não dos lucros.
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="./assets/img/dino-people.svg" alt="dinosaur giving a block to people">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend> Contact me </legend>
+                    <div class="form-group">
+                        <label for="first-name">
+                            First name
+                        </label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">
+                            Last name
+                        </label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Your last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">
+                            E-mail
+                        </label>
+                        <input type="email" name="email" id="email" placeholder="Your email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message"></label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="form-group full-width">
+                        <button type="submit"> Send message </button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <a href="http://github.com/erfilho" target="_blank" rel="noopener noreferrer"><p> Feito com ❤️ por Erineldo Filho </p></a>
+    </footer>
+
+    <a href="#home" class="back-to-top"> ⇑ </a>
+</body>
+</html>
